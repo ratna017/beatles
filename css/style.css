@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+   
+}
+.logo{
+    width: 330px;
+    float: left;
+    margin-right: 140px;
+    padding-top: 25px;
+}
+.menu{
+    width: 490px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 100px;
+}
+.menu ul li a{
+    margin-left: 70px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #010101;
+}
+.banner{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #fcdb00;
+}
+.ban_txt{
+    float: left;
+    width: 410px;
+    margin-right: 160px;
+}
+.ban_img{
+    float: left;
+    width: 390px;
+}
+.ban_txt h1{
+    color: #010101;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif; 
+}
+.ban_txt h4{
+    line-height: 24px;
+    width: 315px;
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif; 
+}
+.ban_txt p{
+    line-height: 20px;
+    width: 392px;
+    color: #555555;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif; 
+}
+.bann_icon ul li{
+    display: inline-block;
+}
+.bann_icon ul li a{
+    font-size: 40px;
+    margin-right: 40px;
+    color: #000;
+}
+.ban_img img{
+    border-radius: 8%;
+    margin: 70px;
+   
+}
+/* features part start  */
+.features{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.oprar_featur{
+    text-align: center;
+}
+.oprar_featur h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+}
+.oprar_featur p{
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #313841;
+    width: 746px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.icon_txt_item{
+    width: 313px;
+    padding-bottom: 85px;
+    float: left;
+}
+.ful_icon{
+    float: left;
+    margin-right: 21px;
+}
+.ful_icon i{
+    font-size: 70px;
+    color: #010101;
+    margin-right: 33px;
+}
+.ful_txt{
+    float: left;
+}
+.ful_txt h2{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+
+}
+.ful_txt p{
+    padding-top: 20px;
+    line-height: 20px;
+    width: 218px;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+  
+}
+/* features part end */
+
+/* keep with us start  */
+.keep{
+    padding-top: 90px;
+    padding-bottom: 140px;
+    background: #010101;
+}
+.kep_prt{
+    text-align: center;
+}
+.kep_prt h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #fcdb00;
+}
+.kep_prt p{
+  width: 744px;
+  font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #898989;
+    margin: 0 auto;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.emaill input{
+    width: 580px;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    font-family: 'PT Sans', sans-serif;
+}
+.form{
+   margin-left: 93px;
+   margin-bottom: 80px;
+}
+.emaill{
+   float: left;
+}
+.submit{
+   float: left; 
+}
+.submit button{
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    background: #fcdb00;
+    border: 1px solid #fcdb00;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+.icon_g ul li{
+    display: inline-block;
+   
+}
+.ratna ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fcdb00;
+    background: transparent;
+    background: #fcdb00;
+    border-radius: 6px;
+    line-height: 36px;
+    margin-right: 27px;
+}
+.ratna ul li a{
+    padding-left: 8px;
+    color: #000;
+    font-size: 35px;
+}
+
+.icon_g{
+    margin-left: 350px;
+    margin-bottom: 130px;
+   
+}
+.helov{
+    width: 220px;
+    float: left;
+   
+}
+.example{
+    width: 125px;
+    float: left;
+}
+.helov h3{
+    margin-bottom: 8px;
+    line-height: 20px;
+    width: 180px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+.helov h4{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 8px;    
+}
+.helov p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.example{
+    margin-right: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.example p{
+    line-height: 20px;
+}
+/* keep with us end */
